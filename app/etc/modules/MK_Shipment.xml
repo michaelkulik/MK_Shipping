@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <MK_Shipping>
+        <MK_Shipment>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
-                <Mage_Shipping/>
+                <Mage_Shipping/><!--без этой зависимости наш модуль не будет работать-->
             </depends>
-        </MK_Shipping>
+        </MK_Shipment>
     </modules>
 </config>

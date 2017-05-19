@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MK_Shipment>
+            <version>1.0.0</version>
+        </MK_Shipment>
+    </modules>
+    <global>
+        <models>
+            <mkshipment>
+                <class>MK_Shipment_Model</class>
+            </mkshipment>
+        </models>
+        <helpers>
+            <mkshipment>
+                <class>MK_Shipment_Model</class>
+            </mkshipment>
+        </helpers>
+    </global>
+    <adminhtml>
+        <translate>
+            <modules>
+                <MK_Shipment>
+                    <files>
+                        <default>MK_Shipment.csv</default>
+                    </files>
+                </MK_Shipment>
+            </modules>
+        </translate>
+    </adminhtml>
+    <frontend>
+        <translate>
+            <modules>
+                <MK_Shipment>
+                    <files>
+                        <default>MK_Shipment.csv</default>
+                    </files>
+                </MK_Shipment>
+            </modules>
+        </translate>
+    </frontend>
+    <default>
+        <carriers>
+            <mkshipment>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>mkshipment/carrier</model>
+                <name>Fixed</name>
+                <price>5.00</price>
+                <title>Belpost (mk)</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+            </mkshipment>
+        </carriers>
+    </default>
+</config>
