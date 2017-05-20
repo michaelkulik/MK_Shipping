@@ -13,7 +13,7 @@
         </models>
         <helpers>
             <mkshipment>
-                <class>MK_Shipment_Model</class>
+                <class>MK_Shipment_Helper</class>
             </mkshipment>
         </helpers>
     </global>
@@ -45,8 +45,9 @@
                 <active>1</active>
                 <sallowspecific>0</sallowspecific>
                 <model>mkshipment/carrier</model>
+                <max_packet_weight>2000</max_packet_weight>
                 <name>Fixed</name>
-                <price>5.00</price>
+                <price>7.00</price>
                 <title>Belpost (mk)</title>
                 <type>I</type>
                 <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>

@@ -118,7 +118,13 @@
                             <show_in_store>1</show_in_store>
                         </specificerrmsg>
                         <max_packet_weight>
-
+                            <label>Max Packet Weight</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>80</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Set this value in grams</comment>
                         </max_packet_weight>
                     </fields>
                 </mkshipment>
